@@ -901,78 +901,6 @@ footer{
 }
 
 
-/* @media (max-width: 672px){
-        .nain-nav{
-            width: 100%;
-            background: blue;
-            height: 60px;
-        }
-        ul{
-            position: fixed;
-            transform: translatey(-450px);
-            transform: translatey(-260px);
-            width: 300px;
-            text-align: center;
-            display:  grid;
-            height: ;
-            margin-left:190px;
-            background: red;
-            color: #000;
-            transition: all 0.7s ease;
-        }
-        ul:hover{
-            background: rgba(255, 255, 255, 0.85);
-            transform: translatex(-350px);
-            transform: translatey(-67px);
-            height: 400px;
-        
-        }
-        li{
-            display: grid;
-            text-align: center;
-            align-items: center;
-            background: green;
-            width: 300px;
-            height: 50px;
-        }
-        ul li a{
-            text-align: center;
-            color: rgb(0, 0, 0);
-            font-size: 15px;
-        }
-        .logo{
-            padding: 20px 0;
-        }
-        .logo span{
-            font-family: 'Courier New', Courier, monospace;
-            color: var(--var-color-titulo);
-        }
-        .logo2{
-            background: #4bbd6d;
-            margin: 0 23px;
-            color: rgb(248, 248, 248);
-        }
-        .menu-icon{
-            display: flex;
-            margin: 0 25px;
-            width: 100%;
-         background: yellow;   
-        justify-content: right;
-        }
-        .menu-icon button{
-            border-radius: 10px;
-            cursor: pointer;
-            border: none;
-            padding:10px 13px;
-        }
-        .menu-icon button:hover{
-            background: #000;
-        }
-        .menu-icon span{
-            font-size: 23px;
-            color: var(--var-color-botones);
-        }
-} */
 @media (max-width: 676px){
     ul{
         align-items: center;
@@ -1143,15 +1071,16 @@ ul{
 }
 
     .nain-nav a{
-        transform: translatex(90px);
+
         justify-content: left;
         border-radius: 14px;
         height: 16px;
         width: 90px;
         background: rgba(255, 255, 255, 0.414);
+        transition: all 0.9s ease;
     }
     .nain-nav a:hover{
-        transform: translatex(-2px);
+        transform: translatex(300px);
         color: var(--var-color-hover-letra);
     }
 }
